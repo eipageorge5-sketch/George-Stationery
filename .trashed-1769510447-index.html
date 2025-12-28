@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eipageorge Stationery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="container nav">
+    <h1>George Eipa <span>stationery</span></h1>
+
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <ul class="menu" id="menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#products" class="nav-link">Products</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container">
+    <h2>Your One-Stop Stationery Shop</h2>
+    <p>Quality stationery for school, office, and creative needs</p>
+    <p class="tagline">Smart supplies for learning, creativity, and productivity</p>
+    <a href="#products">Shop Now</a>
+
+    <!-- ORDER FORM -->
+    <form class="order-form" id="orderForm" action="mailto:info@brightlinestationery.com" method="post" enctype="text/plain">
+      <h3>Place Your Order</h3>
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="product">Select Product</label>
+      <select id="product" name="product" required>
+        <option value="">--Choose a product--</option>
+        <option value="exercise books">Exercise Books</option>
+        <option value="pens">Pens & Pencils</option>
+        <option value="office files">Office Files</option>
+        <option value="art supplies">Art Supplies</option>
+      </select>
+
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" name="quantity" min="1" placeholder="1" required>
+
+      <label for="message">Additional Details</label>
+      <textarea id="message" name="message" placeholder="Any special instructions..."></textarea>
+
+      <button type="submit">Submit Order</button>
+      <p class="form-message" id="formMessage"></p>
+    </form>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products" id="products">
+  <div class="container">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h3>Exercise Books</h3>
+        <p>Durable and affordable notebooks</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h3>Pens & Pencils</h3>
+        <p>Quality writing tools</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h3>Office Files</h3>
+        <p>Organize your documents</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x150" alt="">
+        <h3>Art Supplies</h3>
+        <p>For creativity and design</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>
+      Eipageorge Stationery provides high-quality stationery products
+      for students, offices, and institutions with a focus on affordability
+      and customer satisfaction.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service">Retail & Wholesale Supply</div>
+      <div class="service">School Stationery Packages</div>
+      <div class="service">Office Bulk Orders</div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="container">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <p>“Eipageorge Stationery always delivers quality products. My children love their exercise books.”</p>
+        <h4>— Mary Akai, Parent</h4>
+      </div>
+      <div class="testimonial">
+        <p>“Affordable prices and excellent service. Perfect for office supplies.”</p>
+        <h4>— James Kataboi, Office Administrator</h4>
+      </div>
+      <div class="testimonial">
+        <p>“Reliable and professional. Highly recommended for schools.”</p>
+        <h4>— Sarah Amana, School Manager</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>📍 Turkana-Lodwar, Kenya</p>
+    <p>📞 +254 768 927 893</p>
+    <p>✉️ info@eipageorgestationery.com</p>
+    <a href="malto: eipageorge5@gmail.com">Email me</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Eipa Stationery. All rights reserved.</p>
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/254768927893" class="whatsapp" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- BACK TO TOP BUTTON -->
+<a href="#home" class="back-to-top" id="backToTop">
+  <i class="fas fa-chevron-up"></i>
+</a>
+
+<!-- SCRIPTS -->
+<script>
+  // Toggle mobile menu
+  function toggleMenu() {
+    document.getElementById("menu").classList.toggle("show");
+  }
+
+  // Navbar active link highlight & smooth scroll
+  const links = document.querySelectorAll('.nav-link');
+  const sections = document.querySelectorAll('section[id]');
+
+  function setActiveLink() {
+    let scrollPosition = window.scrollY + 150;
+    sections.forEach(section => {
+      const top = section.offsetTop;
+      const height = section.offsetHeight;
+      const id = section.getAttribute('id');
+      if (scrollPosition >= top && scrollPosition < top + height) {
+        links.forEach(link => link.classList.remove('active'));
+        const activeLink = document.querySelector('.nav-link[href="#' + id + '"]');
+        if(activeLink) activeLink.classList.add('active');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', setActiveLink);
+
+  // Smooth scroll for all anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute("href"));
+      if (target) target.scrollIntoView({ behavior: "smooth" });
+    });
+  });
+
+  // Close mobile menu on link click
+  links.forEach(link => link.addEventListener('click', () => {
+    document.getElementById("menu").classList.remove("show");
+  }));
+
+  // Back to Top button
+  const backToTop = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) backToTop.style.display = 'block';
+    else backToTop.style.display = 'none';
+  });
+  backToTop.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  // Simple order form message
+  const orderForm = document.getElementById('orderForm');
+  const formMessage = document.getElementById('formMessage');
+  orderForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    formMessage.textContent = "Thank you! Your order has been received.";
+    formMessage.style.color = "#16a34a";
+    orderForm.reset();
+  });
+</script>
+
+</body>
+</html>
