@@ -12,7 +12,7 @@ View the live site here! https://papastationery.netlify.app/
 ## 🛠️ Tech Stack
 * **HTML5** & **CSS3**
 * **Netlify** for deployment
-* 
+
 ## 💻 Getting Started
 1. Clone this repository: git clone https://github.com
 2. Open `index.html` in your browser  
