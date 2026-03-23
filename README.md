@@ -15,7 +15,8 @@ View the live site here! https://papastationery.netlify.app/
 ![WhatsApp Image 2026-03-23 at 11 26 21](https://github.com/user-attachments/assets/085b9c51-9a36-4ba8-9d3b-89856fccafd2)
 ## 💻 Getting Started
 1. Clone this repository: `git clone https://github.com`
-2. Open `index.html` in your browser 
+2. Open `index.html` in your browser
+3. 
 3.Enjoy exploring George Stationery!
 
 ## 📫 Contact
