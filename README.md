@@ -19,6 +19,6 @@ View the live site here! https://papastationery.netlify.app/
 3.Enjoy exploring George Stationery!
 
 ## 📫 Contact
-* **LinkedIn:** https://www.linkedin.com/in/george-eipa-93ab4b371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+* **LinkedIn:** [George Eipa](https://www.linkedin.com/in/george-eipa-93ab4b371)
 * **Email:** eipageorge5@gmail.com
 *
